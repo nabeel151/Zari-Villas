@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .container{
+        background-color: blue;
+        display: grid;
+        /* grid-template-columns:  1fr 2fr 1fr ; */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        /* column-gap: 20px;
+        row-gap: 20px; */
+        grid-auto-rows: auto;
+        grid-auto-columns: 20px;
+        grid-gap: 20px;
+    }
+    .items{
+        background-color: aquamarine;
+        border: 3px green solid;
+        border-radius: 3px;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="items"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda, eligendi hic vero laboriosam incidunt voluptatibus iure. Praesentium nihil repellendus accusantium beatae adipisci tempore, architecto illo aperiam voluptatibus? Laudantium, molestias.</p></div>
+        <div class="items"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis perferendis ducimus modi itaque corrupti aliquam eos nesciunt minus commodi cupiditate soluta earum nihil ipsum aut, sit ex ipsa doloremque blanditiis.</p></div>
+        <div class="items"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae sapiente, omnis neque eius ratione reprehenderit repudiandae! Beatae quidem error optio corrupti iure iusto, possimus magni numquam mollitia id dolorem alias?</p></div>
+        <div class="items"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia eius sed atque dolorem molestias aliquam est quisquam maiores fuga eligendi corporis, ab vitae asperiores libero omnis quidem harum dolorum. Atque?</p></div>
+        <div class="items"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellat possimus temporibus maxime hic pariatur rerum aliquam, id mollitia accusamus sequi facilis minus, beatae error officia rem debitis fuga amet.</p></div>
+
+    </div>
+  
+    
+</body>
+</html>
